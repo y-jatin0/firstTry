@@ -17,7 +17,7 @@ import org.testng.*;
 public class PracticeClass {
 
 	public static void main(String[] args) {
-		/*WebDriver driver = new ChromeDriver();
+		WebDriver driver = new ChromeDriver();
 		driver.get("www.facebook.com");
 		WebElement dropdownElement = driver.findElement(By.xpath(null));
 		Select selectDropdownOptions = new Select(dropdownElement);
@@ -26,7 +26,7 @@ public class PracticeClass {
 		List<String> allDropdownOptions = new ArrayList<>();
 		for(WebElement element: allDropdownelements) {
 			allDropdownOptions.add(element.getText());
-		}*/
+		}
 	}
 		@DataProvider(name="loginData")
 		public Object[][] getData(){
